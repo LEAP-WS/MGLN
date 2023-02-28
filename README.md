@@ -2,6 +2,9 @@
 ## Description
 This is the repository for the PR paper [Multi-Level Graph Learning Network for Hyperspectral Image Classification].
 
+Abstract: Graph Convolutional Network (GCN) has emerged as a new technique for hyperspectral image (HSI) classification. However, in current GCN-based methods, the graphs are usually constructed with manual effort and thus is separate from the classification task, which could limit the representation power of GCN. Moreover, the employed graphs often fail to encode the global contextual information in HSI. Hence, we propose a Multi-level Graph Learning Network (MGLN) for HSI classification, where the graph structural information at both local and global levels can be learned in an end-to-end fashion. First, MGLN employs attention mechanism to adaptively characterize the spatial relevance among image regions. Then localized feature representations can be produced and further used to encode the global contextual information. Finally, prediction can be acquired with the help of both local and global contextual information. Experiments on three real-world hyperspectral datasets reveal the superiority of our MGLN when compared with the state-of-the-art methods.
+
+
 ## Requirements
 
 - Tensorflow (1.4.0)
